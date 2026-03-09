@@ -143,30 +143,30 @@ Phase 1.0 (MVP), 1.1 (model v2), 1.2 (optimized) → Phase 2.0 → Launch. Every
 5. Use HITL (Human-In-The-Loop) gates to approve progress
 
 ---
+## How to Install
 
-## For Leadership Teams
+**For Claude Code:**
 
-**Phase 0 (Planning):** C-suite + Product
-- What does the AI need to do?
-- What's our competitive edge?
-- What are the risks?
+1. Download the `AI_Leadership_Dev.md` file from https://github.com/thehan-co/ai-leadership-dev
+2. In Claude Code, create a new skill folder: `.claude/skills/ai-leadership-dev/`
+3. Save the file as `SKILL.md` inside that folder
+4. Restart Claude Code
+5. The skill loads automatically. Reference it in any prompt with `/ai-leadership-dev`
 
-**Phase 1 (Building):** Engineering + Product
-- Build the MVP
-- Test with real data
-- Refine based on early feedback
+**To use the methodology:**
 
-**Phase 2 (Refinement):** Engineering + Product + Legal/Compliance
-- Optimize performance
-- Verify compliance
-- Test edge cases
+1. Start a new Claude Code project
+2. Invoke the skill: `/ai-leadership-dev`
+3. Work through Phase 0 (lock vision, architecture, metrics)
+4. Get stakeholder approval
+5. Phase 1: Build exactly what Phase 0 locked
+6. Phase 2: Refine and test
+7. Phase 3: Deploy and monitor
 
-**Phase 3 (Launch):** Operations + Engineering
-- Deploy safely
-- Monitor AI behavior
-- Respond to drift
+Each phase has HITL (human-in-the-loop) gates. You decide when to move forward.
 
----
+No code until Phase 0 is locked.
+
 
 ## Part of AI Leadership Program
 
