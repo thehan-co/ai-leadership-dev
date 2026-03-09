@@ -7,7 +7,7 @@ Operating system for executives building AI applications. Lock vision before pix
 **Result:** Predictable timelines, quality gates, AI-native architecture decisions
 
 ---
-![Slot Machine vs Strategy First](slot-machine-vs-strategy-first.png)
+![Slot Machine vs Strategy First](slot machine vs strategy first.jpg)
 
 ## The Slot Machine Problem
 
