@@ -8,16 +8,60 @@ Operating system for executives building AI applications. Lock vision before pix
 
 ---
 
-## The Problem
+## The Slot Machine Problem
 
-Most AI projects fail not because of the AI—but because of how they're built.
+Most new-comers building AI follow the same pattern:
 
-- Vision gets locked *after* the AI vendor is chosen (expensive)
-- Architecture keeps changing during build (rework)
-- Testing happens at launch (catastrophic)
-- Each project repeats the same mistakes
+1. Throw a prompt into Claude Code
+2. Hope something good comes back
+3. Celebrate when it "works"
 
-This operating system prevents that.
+Call it the slot machine approach. Pull the lever. Get a result. Play the "success" slot.
+
+You're not building an AI application. You're building a slot machine.
+
+There's no locked vision. No architecture decided beforehand. No human-in-the-loop gates saying "wait, is this right?" Just code → hope → ship.
+
+Then it breaks. The AI hallucinates on edge cases. The data was messier than expected. The model didn't understand your business domain. You rework it. You rebuild it. Sometimes you abandon it.
+
+**The cost: 5-30x more expensive than getting strategy right first.**
+
+---
+
+## The Strategy First Alternative
+
+AI Leadership Dev inverts this.
+
+You lock the vision, architecture, data strategy, success metrics, and compliance requirements **before writing a single line of code.** Then you build exactly that. Not more. Not different.
+
+Human-in-the-loop gates at every phase. You decide when to move forward. The AI executes.
+
+Vision → Architecture → Build → Test → Launch.
+
+No surprises. No expensive rework. No slot machines.
+
+---
+
+## Real Example: The Difference
+
+**CFO at a $20M SaaS company wants AI for customer support.**
+
+**Slot Machine Approach:**
+- Day 1-2: "Build me an AI that handles tickets." Throws it at Claude Code.
+- Day 3: System ships. Team excited.
+- Day 5: Hallucination rate 8%. Customers angry. First escalation.
+- Week 2-3: Rework, retrain, fix.
+- Month 2: Finally works. Total cost: $40,000+ in salaries + rework.
+
+**AI Leadership Dev Approach:**
+- Days 1-4 (Phase 0): Lock vision ("AI drafts, humans approve before sending"). Lock architecture (LLM + knowledge base + escalation logic). Lock success metrics (50% faster response, 95% accuracy). Lock risks and mitigation (hallucination on new products = human approval gate). Generate locked requirements.
+- Weeks 1-3 (Phase 1): Build exactly that. Test with 3 real support agents. Metrics on track? Approved → Phase 2.
+- Week 4 (Phase 2): Edge case testing. Compliance verified. Legal approved.
+- Day 1 (Phase 3): Deploy. Monitor 7 days. All systems green. Live.
+
+Result: 50% faster response time. Zero hallucination incidents. $4,000 total cost. No rework.
+
+The difference: Planning first. Humans deciding. No surprises.
 
 ---
 
@@ -84,7 +128,7 @@ You can't change AI requirements in Phase 1. You can't optimize models in Phase 
 **Human-in-the-loop at every gate.**  
 Stakeholder approval before Phase 1 prevents misaligned expectations. Approval before Phase 3 prevents launching broken AI.
 
-**Version tracking (x.y) shows AI progress.**  
+**Version tracking (x.y.z) shows AI progress.**  
 Phase 1.0 (MVP), 1.1 (model v2), 1.2 (optimized) → Phase 2.0 → Launch. Everyone knows what changed.
 
 ---
@@ -123,66 +167,15 @@ Phase 1.0 (MVP), 1.1 (model v2), 1.2 (optimized) → Phase 2.0 → Launch. Every
 
 ---
 
-## Real Example Timeline
-
-**Project:** AI assistant for customer support (reduce response time by 50%)
-
-**Phase 0:** 4 days
-- Vision: "AI-assisted support that handles 60% of tickets, escalates 40% to humans"
-- Architecture: LLM + internal knowledge base + escalation logic
-- Constraints: GDPR compliance, <2 second response time, audit trail required
-- Success metric: Reduce avg response time from 4 hours to 2 hours
-- Risk: Model hallucination in escalation logic
-- Approval: ✅ C-suite signs off
-
-**Phase 1:** 3 weeks
-- 1.0: Core AI pipeline (LLM + knowledge base)
-- 1.1: Escalation logic + user feedback loop
-- 1.2: Model optimization for speed
-
-**Phase 2:** 1 week
-- Edge case testing (malicious prompts, contradictory docs)
-- Compliance verification (GDPR audit trail)
-- Performance optimization
-
-**Phase 3:** 3 days
-- Deploy to staging (test with real support team)
-- Monitor for 24 hours (response quality, drift)
-- Deploy to production
-- Monitor continuously (audit trail, feedback)
-
-**Total:** ~30 days from vision to live  
-**Cost avoided:** 5-30x rework if architecture was wrong
-
----
-
-## The Philosophy
-
-This isn't waterfall. It's not agile. It's **strategic architecture for AI.**
-
-It separates:
-- **Vision** (what we're building) from **implementation** (how we build it)
-- **Design** (what AI sees) from **operations** (how AI behaves at scale)
-- **Testing** (does it work?) from **monitoring** (does it keep working?)
-
-Result:
-✅ **Clarity** — Everyone knows the AI strategy  
-✅ **Quality** — Testing happens throughout, not at the end  
-✅ **Speed** — Clear scope prevents delays  
-✅ **Safety** — AI behavior is audited and monitored  
-✅ **Learning** — Each phase documents what we learned  
-
----
-
 ## Part of AI Leadership Program
 
-This methodology is part of the **AI Leadership Program** — a system for executives navigating Strategic Vertigo.
+This methodology is part of my **AI Leadership Program**—a system for executives navigating Strategic Vertigo.
 
-**The full program includes:**
+The program includes:
 - 4-Station Model: Intelligence → Audit → CORE → Strategy
-- This operating system (AI Leadership Dev)
-- Positioning framework for AI companies
-- Frameworks for evaluating AI vendors and tools
+- This operating system: AI Leadership Dev (how to build with AI)
+- Positioning framework: For AI companies articulating value
+- Decision frameworks: For evaluating AI vendors and tools
 
 **Learn more:** [Clarity Beyond AI | AI Leadership](https://www.linkedin.com/in/hanrabinovitz/)
 
@@ -192,8 +185,7 @@ This methodology is part of the **AI Leadership Program** — a system for execu
 
 MIT License — Use freely, credit the author.
 
-**Author:** Han Rabinovitz | [Clarity Beyond AI](https://www.linkedin.com/in/hanrabinovitz/)  
-**Program:** AI Leadership Program (navigating Strategic Vertigo for executives)
+**Author:** Han Rabinovitz | [Clarity Beyond AI](https://www.linkedin.com/in/hanrabinovitz/)
 
 ---
 
